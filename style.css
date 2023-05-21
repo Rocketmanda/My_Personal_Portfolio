@@ -3,6 +3,8 @@
 :root {
   --orange: #ec6200;
   --light: #fcfbfb;
+  --sage: #b4e7d4;
+  --black: #171616; 
 }
 
 html {
@@ -80,10 +82,12 @@ textarea {
   #projects h1 {
     font-size: 32px;
     padding: 42px;
+    color: var(--black);
   }
 
   h2 {
   font-size: 24px;
+  color: var(--black);
 }
 
 header {
@@ -103,6 +107,7 @@ header {
   align-items: center;
   justify-content: flex-start;
   margin-left: 240px;
+  color: var(--black);
 }
 
 .header-text h2 {
@@ -174,11 +179,13 @@ header {
 
 .bio-text {
   padding: 42px;
+  color: var(--black);
 }
 
 .bio-text p {
   margin-bottom: 16px;
   line-height: 1.8;
+  color: var(--black);
 }
 
 .profile-pic {
@@ -228,6 +235,11 @@ header {
   }
 }
 
+.navbar a:hover {
+  color: var(--sage);
+  text-decoration: underline;
+}
+
 #contact {
   padding: 42px;
   margin-bottom: 16px;
@@ -241,11 +253,13 @@ header {
 
 .contact-text {
   padding: 42px;
+  color: var(--black);
 }
 
 .contact-text p {
   margin-bottom: 16px;
   line-height: 1.8;
+  color: var(--black);
 }
 
 @media (min-width: 768px) {
@@ -257,6 +271,7 @@ header {
     max-width: 60%;
     margin: 40px auto;
 	  text-align: left;
+    color: var(--black);
   }
 }
 
@@ -266,6 +281,9 @@ header {
   margin-top: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+#form label {
+  color: var(--black);
 }
 
 .form-btn:hover {
@@ -277,6 +295,7 @@ header {
 footer {
 	padding: 16px;
 	text-align: center;
+  color: var(--black);
 }
 
 .display-none {
@@ -285,6 +304,7 @@ footer {
 
 .project-text {
   padding: 42px;
+  color: var(--black);
 }
 
 .project-text p {
