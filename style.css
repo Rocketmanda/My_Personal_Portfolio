@@ -73,12 +73,6 @@ textarea {
   padding: 8px;
 }
 
-#about-me #projects #contact {
-	padding: 142px;
-	margin-bottom: 16px;
-	line-height: 1.8;
-  }
-
   h1 {
     font-size: 32px;
   }
@@ -188,8 +182,12 @@ header {
   margin-bottom: 16px;
 }
 
-.contact p {
-  margin-bottom: 8px;
+.contact-text {
+  padding: 42px;
+}
+
+.contact-text p {
+  margin-bottom: 16px;
   line-height: 1.8;
 }
 
@@ -201,7 +199,7 @@ header {
   #contact form {
     max-width: 60%;
     margin: 40px auto;
-	text-align: left;
+	  text-align: left;
   }
 }
 
