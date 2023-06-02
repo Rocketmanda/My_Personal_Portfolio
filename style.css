@@ -88,12 +88,6 @@ textarea {
   color: var(--black);
 }
 
-#projects h1 {
-  font-size: 32px;
-  padding: 42px;
-  color: var(--black);
-}
-
 /* Header */
 header {
   display: flex;
@@ -147,29 +141,43 @@ header {
 	}
 
   .projects-header {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     background-image: url('Imgs/orange-bg.jpg');
     background-position: center 30%;
     background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     height: 200px;
+    padding: 0;
+    margin: 0;
   }
-
-  .projects-header h1 {
+  
+  .projects-mobile-background {
+    display: flex;
+    align-items: center;
+    background-image: url('Imgs/orange-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .projects-header-text h1 {
+    font-family: 'Bangers';
+    font-size: 80px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 240px;
+    margin-left: 80px;
+    color: var(--black);
   }
-
-  #projects h1 {
-    font-family: 'Bangers';
-    font-size: 80px;
-  }
+  
+  @media (min-width: 768px){
+    .projects-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
   /* Navigation */
 	nav {
@@ -453,4 +461,4 @@ footer {
   .project-text {
     font-size: 14px;
   }
-}
+}}
