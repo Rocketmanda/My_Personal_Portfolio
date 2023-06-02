@@ -144,7 +144,7 @@ header {
 	header a {
 		text-decoration: none;
 		color:  var(--black);
-	}
+	}}
 
   .projects-header {
     position: relative;
@@ -170,6 +170,16 @@ header {
     font-family: 'Bangers';
     font-size: 80px;
   }
+
+  @media (min-width: 768px){
+    .projects-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .projects-header h1 {
+      font-family: 'Bangers';
+    }}
 
   /* Navigation */
 	nav {
