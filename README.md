@@ -4,24 +4,24 @@
 ## Project Requirements
 ### Content
 My profile picture is displayed round and to the right of my 'About Me' biography which is 142 words in total. The functional contact form is located under 'Contact' and uses 'Formspree.io' to send form content directly to my email address. 'Projects' page has styling  but limited content as it is under construction. The link to my Github is in the Footer. 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form 
-- [ ] "Projects" section 
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- [X] At least one profile picture
+- [X] Biography (at least 100 words)
+- [X] Functional Contact Form 
+- [X] "Projects" section 
+- [X] Links to external sites, e.g. GitHub and LinkedIn.
 
 ### Technical
 The 'Projects' section is the second web page (opens in a new browser window target='blank'). My Portfolio Project is version controlled and deployed on Github. I have taken a 'mobile first' approach to the  code and use of semantic HTML through relevant tags that convey the purpose/meaning of the content.
-- [ ] At least 2 web pages 
-- [ ] Version controlled with Git 
-- [ ] Deployed on GitHub pages 
-- [ ] Implements responsive design principles 
-- [ ] Uses semantic HTML
+- [X] At least 2 web pages 
+- [X] Version controlled with Git 
+- [X] Deployed on GitHub pages 
+- [X] Implements responsive design principles 
+- [X] Uses semantic HTML
  
 ### Bonus (optional)
 I have chosen to use active and hover states for my Portfolio and a hamburger navigation menu for mobile view using Javascript.
-- [ ] Different styles for active, hover and focus states.- 
-- [ ] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
+- [X] Different styles for active, hover and focus states.- 
+- [X] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
 
 ### Screenshots
 > Please include the following:
